@@ -14,6 +14,11 @@ namespace Prueba.BL
 
         }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            Database.SetInitializer(new DatosInicales());
+        }
+
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
     }

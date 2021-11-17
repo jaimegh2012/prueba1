@@ -55,6 +55,7 @@
     <Compile Include="Categoria.cs" />
     <Compile Include="CategoriaBL.cs" />
     <Compile Include="Contexto.cs" />
+    <Compile Include="DatosInicales.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="ProductoBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
